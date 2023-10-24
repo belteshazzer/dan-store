@@ -1,0 +1,38 @@
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.about-us-container {
+  max-width: 800px;
+  min-height: 60vh;
+  overflow-y: auto;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.about-dan-store,
+.our-vision {
+  width: 70%;
+  margin: auto;
+}
+
+.developer-biography {
+  width: 85%;
+  margin: auto;
+}
+
+.developer-info {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.developer-info img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}

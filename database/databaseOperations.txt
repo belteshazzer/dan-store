@@ -1,0 +1,10 @@
+CREATE SCHEMA `yenettacode` ;
+
+CREATE TABLE `yenettacode`.`product_list` (
+  `product_id` INT NOT NULL AUTO_INCREMENT,
+  `product_name` VARCHAR(45) NOT NULL,
+  `Description` VARCHAR(1000) NULL,
+  `price` DECIMAL(4) NOT NULL,
+  `quantity` INT NULL,
+  `status` VARCHAR(20) NULL DEFAULT 'available',
+  PRIMARY KEY (`product_id`));
